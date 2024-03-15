@@ -1,0 +1,46 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-section {
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .orders-table,
+  .products-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .orders-table th,
+  .orders-table td,
+  .products-table th,
+  .products-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .orders-table th,
+  .products-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .orders-table tr:nth-child(even),
+  .products-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .orders-table tr:hover,
+  .products-table tr:hover {
+    background-color: #ddd;
+  }  
